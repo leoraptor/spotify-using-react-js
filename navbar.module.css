@@ -1,0 +1,50 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+body {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+nav { 
+  height: 80px; 
+  background-color: black; 
+}
+.containerr {
+  height: inherit; 
+  width: 1170px;   
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+.spotifylogo {
+  width: 132px;
+  height: 40px;
+  margin: 20px 0; 
+  cursor: pointer;
+}
+.thison {
+  width: 484px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 15px;
+}
+ a {
+  color: white;
+  text-decoration: none;
+}
+.thisone {
+  font-weight: bold;
+  
+
+}
+nav a:hover {
+  color: #1db954;
+}
+
+  

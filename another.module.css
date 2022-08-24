@@ -1,0 +1,35 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+.meow{ 
+    height: 340px; 
+    background: linear-gradient(180deg,#f528a3,rgb(135, 6, 175) );
+   }
+   .container {
+    height: inherit; 
+    width: 1170px;   
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+  }
+  #title {
+    width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  header .container {
+    flex-direction: column;
+    justify-content: center;
+  }

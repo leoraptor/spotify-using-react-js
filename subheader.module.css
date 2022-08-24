@@ -1,0 +1,64 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+.hellyeah { 
+    height: 470px; 
+    background:white;
+   }
+   .container {
+    height: 200px; 
+    width: 1170px;   
+    margin:  0 auto;
+    padding: 0 15px;
+    display: flex;
+    margin-bottom: 60px;
+  }
+  #title {
+    width: inherit;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  header .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  article{
+    margin-top: 40px;
+    width: 1170px;   
+    margin:  0 auto;
+    padding: 0 15px;
+    display: flex;
+  }
+  h3{
+    font-weight: bold;
+    margin:  0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  p{
+    margin:  0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+ 
+  
+  
+    
+  
